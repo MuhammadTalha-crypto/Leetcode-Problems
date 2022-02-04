@@ -17,8 +17,10 @@ class Solution:
             copy = Node(node.val)
             oldToNew[node] = copy
             
-            for nei in node.neighbors:
-                copy.neighbors.append(dfs(nei))
+            for n in node.neighbors:
+                copy.neighbors.append(dfs(n))
             return copy
-        
         return dfs(node) if node else None
+        
+        
+        
