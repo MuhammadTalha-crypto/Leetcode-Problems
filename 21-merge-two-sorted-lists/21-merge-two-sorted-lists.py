@@ -22,7 +22,10 @@ class Solution:
         elif list2:
             head.next = list2
         
-        
         return dummy.next
+            
+            
+            
+        
             
         
