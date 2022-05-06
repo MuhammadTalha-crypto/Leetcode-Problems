@@ -5,8 +5,8 @@ class Solution:
         for i in s:
             if i == "(":
                 count +=1
-                if para < count:
-                    para = count
+            if para < count:
+                para = count
             elif i == ")":
                 count -=1
                 
