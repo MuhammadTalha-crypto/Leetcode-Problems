@@ -5,6 +5,6 @@ class Solution:
         position = 0
         for i in range(len(nums)):
             answer += nums[i] * 10 ** position  
-            if i%2:
+            if i%2==1:
                 position += 1
         return answer
