@@ -3,6 +3,5 @@ class Solution:
         new = []
         for i in range(len(nums)):
             new.append(nums[i])
-            i+=1
         return nums + new
         
