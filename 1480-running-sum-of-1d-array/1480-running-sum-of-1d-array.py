@@ -5,5 +5,4 @@ class Solution:
         for i in range(len(nums)):
             k +=nums[i]
             ans.append(k)
-            i +=1
         return ans
