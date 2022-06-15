@@ -5,3 +5,4 @@ class Solution:
             new.append(nums[i])
         return nums + new
         
+        
